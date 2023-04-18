@@ -7,14 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>web_prueba</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        
+        figure>img{
+            width: 100%;
+            margin: auto;
+        }
+
         main, p{
             border: solid 1px #000000;
+            margin: 1%;
         }
         p{
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 2em;
             text-align: justify;
             font-weight: 500;
+            background: radial-gradient(circle, #ffffff, rgb(83, 83, 241));
+            width: 80%;
+            padding: 2% 4%;
+        }
+        p:first-of-type{
+            box-sizing: content-box;
+        }
+
+        p:last-of-type{
+            box-sizing: border-box;
         }
     </style>
 </head>
